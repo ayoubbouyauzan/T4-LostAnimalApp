@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	  <!-- CSS FILES -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+	  <!-- Change this to your own CSS file, which you will work in -->
+	  <link rel="stylesheet" href="CSS/stylesheet1.css">
+
+	  <!-- Change title -->
+    <title>Create Animal Profile</title>
+  </head>
+  <body>
+	  
+	  
+	<header>
+	  <div class="d-flex justify-content-center">
+	  <div class="avatar"><img src="Images/thumbnail_907c75d8e81fa3db01996afe8381d81f.png" alt="" height="200">
+  <input id="to-hide" type="file" onchange="previewFile()">
+  <input type="button" class="upload" value="Edit" onClick="document.getElementById('to-hide').click()">
+</div>
+</div></header>
+	  
+	  <div class="container">
+	<input type="text" placeholder="NAME" name="Name" required>
+	  <input type="text" placeholder="BREED" name="Breed" required>
+	  <div class="form-group GENDER">
+    <label for="exampleFormControlSelect1">GENDER</label>
+    	<select class="form-control form-control-lg" id="exampleFormControlSelect1">
+      <option>MALE</option>
+      <option>FEMALE</option>
+    </select>
+  </div>
+	  <input type="text" placeholder="PRIMARY COLOR" name="Color">
+	  <input type="text" placeholder="WEIGHT" name="Weight">
+	  <input type="text" placeholder="FEATURES" name="Features" >
+	  <div class="missing">
+	MISSING?
+	<!-- Rounded switch -->	  
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+	  </div>
+	  <div class="button">
+	   <button type="button" class="registerbtn">GENERATE QR CODE</button>
+	  <button type="button" class="registerbtn">SHARE</button>
+	
+		</div>
+	  </div>
+
+    <!-- Do not change unless it does not work. In that case relink to your own downloaded files -->
+	  <script src="JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+  
+  </body>
+	
+	<footer>
+<div class="save">
+	<button type="button" class="btn btn-secondary">SAVE</button></div>	</footer>
+</html>
