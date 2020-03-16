@@ -2,7 +2,8 @@
 /* CSS Document */
 
 nav{
-  background-color: rgba(75,75,75,1.00);
+  background-color: dimgrey;
+	max-height: 70px;
 }
 
 body {
@@ -41,11 +42,13 @@ li {
 .dropup-item {
   background: #AC5B5A;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
   padding: 10px;
-  margin: 50px;
-  text-align: center;
+}
+
+.img1 .img2 .img3 {
+	height: 40px;
 }
 
 ol {
