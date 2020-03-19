@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {box-sizing: border-box}
+
+body {
+	padding: 20px;
+	background-color:#B2DFDB
+}
+
+.imgcontainer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.container {
+	text-align: center;
+}
+
+
+.bt1 {
+	background-color: #9BC0D8;
+	border-color: #728D9E;
+}
+
+.bt2 {
+	background-color: #BC8E82;
+	border-color: #6D5A55;
+}
+
+/* Set a style for all buttons */
+button {
+  color: white;
+  cursor: pointer;
+  border: solid;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: 90%;
+  padding: 10px 18px;
+  margin-bottom: 20px;
+}
+
+.psw {
+ position: fixed; 
+ bottom: 0; 
+ width: 100%;
+ text-align: center;
+}
+
+

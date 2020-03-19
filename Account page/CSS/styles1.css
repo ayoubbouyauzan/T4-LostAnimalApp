@@ -4,41 +4,38 @@
 * {box-sizing: border-box}
 
 body {
-	background-color: #E5FFFF;	
+  background-color:#B2DFDB	;
+	  padding: 20px;
 }
 
 .d-flex {
-	padding-bottom: 30px;;
+  padding-bottom: 20px;
 }
 
 .picture {
-	display: inline-block;
+  display: inline-block;
 }
 
-.logout1 {
-	padding-top: 4px;
-	padding-right: 4px;
+.logout {
+
+  background-color: #82ADA9;
+	/* change button color */
 }
 
 
 .avatar {
-	text-align: center;
-  margin: 24px 0 12px 0;
+  margin: auto;
+	
 }
 
 .logout {
-	float: right;
+  float: right;
   border: none;
 }
 
 img.avatar {
   width: 40%;
   border-radius: 50%;
-	
-}
-
-header {
-	
 	
 }
 
@@ -50,11 +47,11 @@ input[type=text], input[type=password] {
   margin: 0px 0 10px 0;
   display: inline-block;
   border: none;
-  background: #4C9993;
+  background:#7B94AD;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #769D9A;
+  background-color: #7B94AD;
   outline: none;
 }
 
@@ -63,24 +60,26 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 ::placeholder {
-  color: white;
+  color: #CCCCCC;
 }
 
 
-
+main{ 
+	margin-top: 20px;
+}
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #4C9993;
+  background-color: #7B94AD;
   color: #E2E2E2;
- padding: 10px;
+  padding: 10px;
   margin: 0px 0 10px 0;
   display: inline-block;
   border: none;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
-	text-align: left;
+  text-align: left;
 }
 
 .registerbtn:hover {
@@ -96,20 +95,24 @@ input[type=text]:focus, input[type=password]:focus {
   border-radius: 50%;
   position: relative;
   transition: 200ms;
-  background: #fff;
+  background-color: #e5ffff;
+	
 }
 .avatar:hover img {
   opacity: .6;
 }
+
 .avatar:hover .upload {
   opacity: 1;
 }
+
 img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border: none;
 }
+
 #to-hide {
   visibility: hidden;
 }
@@ -134,9 +137,8 @@ img {
 }
 
 footer {
-	padding-right: 36px;
-  margin: 15px 0 0px 0;
-  display: inline-block;
+	margin-right: 15px;
   border: none;
-	float: right;
+	margin-bottom: 20px;
 }
+

@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {box-sizing: border-box}
+
+body {
+	padding: 20px;
+	background-color:#B2DFDB
+}
+
+.picture {
+	text-align: center;
+	margin: 0px 0 24px 0;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 0px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #7B94AD;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #7B94AD;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+   border: 1px solid #7B94AD;
+	background-color: #7B94AD;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #D5D500;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: center;
+}
+
+::placeholder {
+  color: #CCCCCC;
+}
+
+.btn-secondary {
+	margin-bottom: 5px;
+	background-color: #82ADA9;
+}
+
+/* Set a style for all buttons */
+button {
+
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+ 
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #82ADA9;
+	margin-bottom: 10px;
+}
+

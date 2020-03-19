@@ -8,7 +8,7 @@
 	  <!-- CSS FILES -->
     <link rel="stylesheet" href="Create animal profile/CSS/bootstrap.min.css">
 	  <!-- Change this to your own CSS file, which you will work in -->
-	  <link rel="stylesheet" href="Create animal profile/CSS/stylesheet1.css">
+	  <link rel="stylesheet" href="Create animal profile/CSS/stylesheet10.css">
 
 	  <!-- Change title -->
     <title>Create Animal Profile</title>
@@ -25,40 +25,102 @@
 </div></header>
 	  
 	  <div class="container">
-	<input type="text" placeholder="NAME" name="Name" required>
-	  <input type="text" placeholder="BREED" name="Breed" required>
+	<input type="text" placeholder="What is your pets name?" name="Name" required>
+		  
 	  <div class="form-group GENDER">
-    <label for="exampleFormControlSelect1">GENDER</label>
+    <label for="exampleFormControlSelect1">What type of pet is it?</label>
     	<select class="form-control form-control-lg" id="exampleFormControlSelect1">
-      <option>MALE</option>
-      <option>FEMALE</option>
+      <option>Dog</option>
+      <option>Cat</option>
+			<option>Other</option>
     </select>
   </div>
-	  <input type="text" placeholder="PRIMARY COLOR" name="Color">
-	  <input type="text" placeholder="WEIGHT" name="Weight">
-	  <input type="text" placeholder="FEATURES" name="Features" >
-	  <div class="missing">
-	MISSING?
-	<!-- Rounded switch -->	  
+	    <div class="form-group GENDER">
+    <label for="exampleFormControlSelect1">What is the gender of the pet?</label>
+    	<select class="form-control form-control-lg" id="exampleFormControlSelect1">
+      <option>Male</option>
+      <option>Female</option>
+	<option>Prefer not to say</option>
+    </select>
+  </div>
+		 
+	
+		  
+	<div class="btn-group">    <!-- CURRENCY, BOOTSTRAP DROPDOWN -->
+                <!--<a class="btn btn-primary" href="javascript:void(0);">Currency</a>-->                    
+                <a class="btn registerbtn dropdown-toggle" data-toggle="dropdown" href="#"  style="float:right"> What is the color of your pet?</a>
+                <ul class="dropdown-menu">
+					<div class="row">
+        <div class="column">
+                    <li><a href="javascript:void(0);">
+                        <img class="img1" src="Create animal profile/Images/WhatsApp Image 2020-03-05 at 12.51.55 (1).jpeg" alt="" />Grey</a>
+                    </li>
+						</div>
+						<div class="column">
+                    <li><a href="javascript:void(0);">
+                        <img class="img1" src="Create animal profile/Images/sandy-millar-ldhFlQYkXUU-unsplash.jpg" alt=""/> Brown</a>
+							</li></div></div>
+						<div class="row">
+        <div class="column">
+                    <li><a href="javascript:void(0);">
+                        <img class="img1" src="Create animal profile/Images/alexi-ohre-L4vPfcfHSDo-unsplash.jpg" alt="" /> Gold</a>
+			</li></div>
+							<div class="column">
+					<li><a href="javascript:void(0);">
+                        <img class="img1" src="Create animal profile/Images/thumbnail_907c75d8e81fa3db01996afe8381d81f.png" alt="" /> Add</a>
+                    </li></div></div>
+              
+                </ul>
+            
+		  </div>
+		  
+		   <div class="missing"> Is your pet castrated/sterilized?<br>
+	  <!-- Rounded switch -->	  <div class="yes">NO &nbsp; YES</div><br>
 <label class="switch">
   <input type="checkbox">
   <span class="slider round"></span>
 </label>
-	  </div>
+	    </div>
+
+		  		  
+ <input type="text" placeholder="What is your pets favourite food?" name="Breed">
+<input type="text" placeholder="Extra information (Eg. patterns, size, recognisable features)" name="Breed">
+		  
+	<div class="missing"> Is your pet missing?
+	  <!-- Rounded switch -->	  <div class="yes">NO &nbsp; YES</div><br>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+	    </div>
 	  <div class="button">
-	   <button type="button" class="registerbtn">GENERATE QR CODE</button>
+	   <button type="button" class="registerbtn">GENERATE QR-CODE NOW</button>
 	  <button type="button" class="registerbtn">SHARE</button>
 	
 		</div>
 	  </div>
+	<button type="button" class="btn btn-secondary save" ><div class="popup save" onclick="myFunction()">SAVE
+  <span class="popuptext" id="myPopup"><a class="link" href="home.html"> Go to the map to pin your missing pet </a><br> <br> <a class="link" href="Account page.html"> Share your missing pet</a></button></div></span>
+
+	  
+	
+<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+	  
 
     <!-- Do not change unless it does not work. In that case relink to your own downloaded files -->
-	  <script src="JS/jquery-3.4.1.slim.min.js"></script>
-    <script src="JS/bootstrap.bundle.min.js"></script>
+	  <script src="Create animal profile/JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="Create animal profile/JS/bootstrap.bundle.min.js"></script>
   
   </body>
 	
 	<footer>
-<div class="save">
-	<button type="button" class="btn btn-secondary">SAVE</button></div>	</footer>
+
+	
+	</footer>
 </html>
