@@ -7,37 +7,43 @@
 
     <!-- Bootstrap CSS -->
 	  <!-- own stylesheet -->
-	 
-    <link rel="stylesheet" href="Log in/css/bootstrap.min.css" type="text/css">
-	   <link href="Log in/css/stylesheet1.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="Log in/css/bootstrap.min.css" type="text/css">
+	  <link href="Log in/css/stylesheet1.css" rel="stylesheet" type="text/css">
+	  
 	<!-- change title to page --> 
     <title>Log-in page</title>
   </head>
 	
   <body>
-	  <!-- log in form -->
-	  <form action="action_page.php" method="post">
-
-  <div class="container">
-   	 <input type="text" placeholder="E-mail" name="uname">
-    <input type="password" placeholder="Password" name="psw" >
-	  
-<!--- Link login to ayoub page -->
-    
+	<!-- log in form -->
+	<form action="action_page.php" method="post">
+		<div class="container">
+   	 		<input type="text" placeholder="E-mail" name="uname">
+   			<input type="password" placeholder="Password" name="psw" >
     <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
+		<p>
+      		<input type="checkbox" checked="checked" name="remember"> Remember me
+		</p>
+   	</label>
+ 		</div>
 		  
-		  
-		  <div class=" signin">
-		   <a style="text-decoration: none; color: #ffffff;" href="Homescreen page.html"> 
+<div class=" signin">
+	 <a style="text-decoration: none; color: #ffffff;" href="Homescreen page.html"> 
 	   <button type="button" class="cancelbtn">Sign In</button> 
- </a><div class="forgot">
-    <p>Forgot <a href="">Password?</a></p></div>
+ 	</a>
+  <div class="forgot">
+   	<a href=""> 
+		<p>Forgot Password?</p>
+	</a>
+	  	<div class="forgot2">
+   	<a href=""> 
+		<p>Register</p>
+	</a>
+		</div>
   </div>
-		  
 
+</div>
+		 
 </form>
 	  
 	
