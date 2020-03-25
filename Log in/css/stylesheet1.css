@@ -26,12 +26,14 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  font-family: lato;
 }
 
 /* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
 }
+
 
 /* Extra style for the cancel button (red) */
 .cancelbtn {
@@ -84,11 +86,13 @@ input:checked + .slider:before {
 
 ::placeholder {
 	color: #848484;
+	font-family: lato;
 }
 
 .signin {
   text-align: center;
   margin-top: 50px;
+  font-family: lato;
 }
 
 .forgot {
@@ -103,7 +107,7 @@ input:checked + .slider:before {
 
 a {
 	color: white;
-	font-family: lato; 
+	font-family: lato;
 }
 
 a:hover {

@@ -4,12 +4,12 @@
 * {box-sizing: border-box}
 
 body {
-	background-color: #7B94AD;
+	background-color: #b2dfdb;
 }
 
 .icon-bar {
  	width: 100%;
-  	background-color:#82ADA9;
+  	background-color:#7B94AD;
   	overflow: auto;
 }
 
@@ -22,6 +22,31 @@ body {
   	 color: black;
  	 font-size: 36px;
 }
+
+.icon-bar a:hover {
+ 	 background-color: #f5b0af;
+}
+
+.active {
+  	background-color: #888;
+}
+
+.register {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #82ada9;
+  font-family: lato;
+  text-align: left;
+}
+
+
+img {
+  	max-width: 50%;
+}
+
 
 p {
 	color: black;
@@ -51,7 +76,7 @@ header{
  	border-radius: 5px;
  	border: none;
  	cursor: pointer;
-  	background-color: #4D667E;
+  	background-color: #82ada9;
   	padding: 7px 12px;
   	text-align: center;
   	justify-content: center;
@@ -64,7 +89,7 @@ header{
   	border-radius: 5px;
  	border: none;
   	cursor: pointer;
-  	background-color: #4D667E;
+  	background-color: #82ada9;
   	padding: 7px 12px;
 	font-family: lato;
 }
@@ -85,7 +110,7 @@ header{
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #f5b0af;
+  background-color: #e28f7c;
   margin: 50% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
@@ -114,19 +139,6 @@ main {
 	font-family: lato;
 }
 
-.icon-bar a:hover {
- 	 background-color:#AB5C59;
-}
-
-.active {
-  	background-color: #888;
-}
-
-
-img {
-  	max-width: 50%;
-}
-
 
 .picture {
 	display: inline-block;
@@ -135,20 +147,16 @@ img {
 .avatar {
 	text-align: center;
   	margin: 24px 0 12px 0;
-	background-color: #f5b0af;
-}
-
-button:hover {
-  opacity: 0.8;
+	background-color: #e28f7c;
 }
 
 .save {
-	float: right;
-  	border: none;
-	background-color: #ABC4DF;
-	text-align: center;
 	margin-right: 25px;
 	margin-top: 5px;
+	float: right;
+  	border: none;
+	background-color: #82ada9;
+	text-align: center;
 	font-family: lato;
 }
 
@@ -162,7 +170,6 @@ img.avatar {
 	margin-top: 5px;
 	max-height: 250px;
   	padding: 36px;
-	font-family: lato;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
   	overflow-y: scroll; /* Add vertical scrollbar */
 }
@@ -174,7 +181,7 @@ input[type=text], input[type=password] {
   margin: 0px 0 10px 0;
   display: inline-block;
   border: none;
-  background: #ABC4DF;
+  background: #82ada9;
   font-family: lato;
 }
 
@@ -190,7 +197,7 @@ input[type=text]:focus, input[type=password]:focus {
   margin: 0px 0 10px 0;
   display: inline-block;
   border: none;
-  background: #ABC4DF;
+  background: #82ada9;
   font-family: lato;
 }
 
@@ -201,7 +208,7 @@ input[type=text]:focus, input[type=password]:focus {
   margin: 0px 0 10px 0;
   display: inline-block;
   border: none;
-  background: #ABC4DF;
+  background: #82ada9;
   font-family: lato;
 }
 
@@ -225,10 +232,12 @@ a:hover {
 .dropdown-menu{
 	max-height: 180px;
 	background-color: #82ADA9;
+	font-family: lato;
 }
 
 .btn-group {
 	width: 100%;
+	font-family: lato;
 }
 
 .column {
@@ -244,8 +253,8 @@ li {
 
 
 ::placeholder {
-	color: black;
-	font-family: lato;
+  color: black;
+  font-family: lato;
 }
 
 .img2 {
@@ -267,8 +276,6 @@ li {
 }
 
 /* Hide default HTML checkbox */
-
-
 .switch input {
   opacity: 0;
   width: 0;
@@ -284,7 +291,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f5b0af;
+  background-color: #e28f7c;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -302,11 +309,11 @@ li {
 }
 
 input:checked + .slider {
-  background-color: #8D8D8D;
+  background-color: #c8c8c8;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #8D8D8D;
+  box-shadow: 0 0 1px #c8c8c8;
 }
 
 input:checked + .slider:before {
@@ -327,8 +334,8 @@ input:checked + .slider:before {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #f5b0af;
-  color: black;
+  background-color:  #e28f7c;
+  color: white;
   padding: 10px;
   margin: 0px 0 10px 0;
   display: inline-block;
@@ -338,17 +345,6 @@ input:checked + .slider:before {
   opacity: 0.9;
   text-align: center;
   border-radius: 10px;
-  font-family: lato;
-}
-
-.register {
-  width: 100%;
-  padding: 10px;
-  margin: 0px 0 10px 0;
-  display: inline-block;
-  border: none;
-  background: #ABC4DF;
-  text-align: left;
   font-family: lato;
 }
 
@@ -428,7 +424,6 @@ input:checked + .slider:before {
   bottom: 125%;
   left: 50%;
   margin-left: -80px;
-  font-family: lato;
 }
 
 /* Popup arrow */
@@ -471,4 +466,9 @@ input:checked + .slider:before {
 .link:hover {
 	opacity: .6;
 	text-decoration: underline;
+}
+
+p {
+  color: white;
+  font-family: lato; 
 }
