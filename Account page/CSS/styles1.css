@@ -132,6 +132,7 @@ main {
   opacity: 0.9;
   text-align: left;
   font-family: lato;
+  border-radius: 10px;
 }
 
 .registerbtn:hover {
@@ -147,7 +148,7 @@ main {
   border-radius: 50%;
   position: relative;
   transition: 200ms;
-  background-color: #e5ffff;
+  background-color: #f5b0af;
 	
 }
 .avatar:hover img {
@@ -158,9 +159,6 @@ main {
   opacity: 1;
 }
 
-footer {
-	margin-top: 20px;
-}
 
 img1 {
   width: 200px;
@@ -198,6 +196,7 @@ footer {
 	margin-right: 15px;
     border: none;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .logout10 {
