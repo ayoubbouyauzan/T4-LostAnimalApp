@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color:#B2DFDB
+	background-color:#7B94AD;
 }
 
 
@@ -48,7 +48,7 @@ body {
 	height: 50;
 	margin: 20;
 	padding: 20;
-	background-color:#82ADA9;
+	background-color:#ABC4DF;
  	overflow: auto;
 	cursor: pointer;
 }
@@ -68,15 +68,24 @@ body {
 	align-content: center;
 	margin-top: 40px;
 	height: 380px;
-	max-height: 350px;
-  padding: 36px;
-	  overflow-x: hidden; /* Hide horizontal scrollbar */
-  overflow-y: scroll; /* Add vertical scrollbar */
-}
+	padding: 36px;
+  	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 .boxes ul a:hover {
-	background-color: #AB5C59;
+	background-color: #ABC4DF;
+}
+.boxes{
+	align-content: center;
+	text-align: center;
+	border: 3px;
+	border-color: black;
+	width: 300;
+	height: 50;
+	margin: 20;
+	padding: 20;
+ 	overflow: auto;
+	cursor: pointer;
 }
 
 .logo {
@@ -186,7 +195,13 @@ input:checked + .slider:before {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;	
+  font-size: 13px;
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: #f5b0af;
+  color: aliceblue;
+  text-decoration: none;
 }
 
 a{
@@ -194,16 +209,25 @@ a{
  color: aliceblue;
 }
 
+a:hover{
+ text-decoration: none;
+ color: aliceblue;	
+}
+
 .button1 {
   float: left;
-  border: 1px solid #4D667E ;
   background-color: #4D667E;
   color: white;
-  padding: 5px ;
+  padding: 4px 10px ;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 7px;	
+  font-size: 7px;
+  border-radius: 4px;  
+}
+.button1:hover {
+  background-color: #f5b0af;
+  color: aliceblue;
+  text-decoration: none;
 }
 /* For avatar image upload */
 .avatar {
@@ -248,14 +272,9 @@ a{
 .row {
 	align-content: center;
 	text-align: center;
-	border: 3px;
-	width: 150;
-	height: 80;
-	margin: 20;
-	padding: 20;
-	background-color:#82ADA9;
  	overflow: auto;
 	cursor: pointer;
+	max-width: 300;
 }
 .col-6{
 	align-content: center;
@@ -268,4 +287,15 @@ h6{
 }
 p{
 font-family: 'Lato', sans-serif;	
+}
+
+/*center elements */
+.center{
+	justify-content: center;
+	vertical-align: center;
+}
+
+/*header padding */ 
+header {
+	Padding: 10px;
 }

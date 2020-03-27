@@ -48,11 +48,10 @@ body {
 	height: 50;
 	margin: 20;
 	padding: 20;
-	background-color:#82ADA9;
+	background-color:#e5ffff;
  	overflow: auto;
 	cursor: pointer;
 }
-
 .boxes {
 	align-content: center;
 	text-align: center;
@@ -66,21 +65,13 @@ body {
 	cursor: pointer;
 }
 
-.row {
-	max-width: 300;
-}
 
-.center {
-justify-content: center;
-}
 
 .logout {
 	text-align: center;
 	margin-top: 75px;
 	background-color:#82ADA9;
 	cursor: pointer;
-
-	
 }
 
 .container {
@@ -88,12 +79,12 @@ justify-content: center;
 	margin-top: 40px;
 	height: 380px;
 	padding: 36px;
-	overflow-x: hidden; /* Hide horizontal scrollbar */
   	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 .boxes ul a:hover {
 	background-color: #AB5C59;
+
 }
 
 .logo {
@@ -102,8 +93,6 @@ justify-content: center;
 	margin: auto;
 	margin-top: 25px;
 }
-
-
 
 .box2 {
 	position: absolute;
@@ -226,53 +215,41 @@ input:checked + .slider:before {
 /* for call owner button */
 .button {
   float: left;
-  border: 1px solid #4D667E ;
-  background-color: #4D667E;
+  border: 1px solid #82ada9;
+  background-color: #82ada9;
   padding: 10px 30px;
   text-align: center;
   display: inline-block;
   font-size: 13px;
+  border-radius: 4px;
 }
+.button:hover {
+  background-color: #e28f7c;
+  color: aliceblue;
+  text-decoration: none;
+}
+
 a{
  text-decoration: none;
  color: aliceblue;
 }
 
+a:hover{
+ text-decoration: none;
+ color: aliceblue;	
+}
+
 /* Avatar image */ 
 #Doggo{
- vertical-align: middle;
+  Paddiing-top: 20px;
+  vertical-align: middle;
   height: 200px; 
   width: 200px;
   border-radius: 50%;
   boarder: 1px solid white;
 }
 
-/*scroll bar*/
-/*.scroll {
-  width: 20px;
-  height: 200px;
-  overflow: auto;
-  float: right;
-  margin: 0 10px;
-}
 
-.content {
-  height: 500px;
-}
-.scroll4::-webkit-scrollbar {
-  width: 10px;
-}
- 
-.scroll4::-webkit-scrollbar-thumb {
-  background: #666;
-  border-radius: 20px;
-}
-
-.scroll4::-webkit-scrollbar-track {
-  background: #ddd;
-  border-radius: 20px;
-}
-*/
 /* header*/
 .header{
 	padding: 10px;
@@ -284,4 +261,13 @@ h6{
 }
 p{
 font-family: 'Lato', sans-serif;	
+}
+
+/*element centering*/
+.center{
+	justify-content: center;
+}
+/*header padding */ 
+header {
+	Padding: 10px;
 }
