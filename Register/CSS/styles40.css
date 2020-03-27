@@ -24,6 +24,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: none;
   background: #ABC4DF;
+  font-family: lato;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -65,11 +66,13 @@ p {
 
 ::placeholder {
   color: #848484;
+  font-family: lato;
 }
 
 .btn-secondary {
 	margin-bottom: 5px;
 	background-color: #4D667E;
+	font-family: lato;
 }
 
 /* Set a style for all buttons */
@@ -78,6 +81,7 @@ button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  font-family: lato;
 }
 
 /* Add a hover effect for buttons */

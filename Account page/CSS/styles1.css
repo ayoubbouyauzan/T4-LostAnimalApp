@@ -4,14 +4,15 @@
 * {box-sizing: border-box}
 
 body {
-  background-color:#B2DFDB	;
-	  padding: 20px;
+  background-color:#7B94AD;
+  padding: 20px;
 }
 
 .icon-bar {
   width: 100%;
   background-color:#82ADA9;
   overflow: auto;
+  margin-top: 15px;
 }
 
 .icon-bar a {
@@ -25,7 +26,6 @@ body {
 }
 
 
-
 .icon-bar a:hover {
   background-color:#AB5C59;
 }
@@ -33,10 +33,6 @@ body {
 .active {
   background-color: #888;
 }
-
-
-
-
 
 
 .d-flex {
@@ -47,29 +43,52 @@ body {
   display: inline-block;
 }
 
-.logout {
-
-  background-color: #82ADA9;
-	/* change button color */
-}
-
 
 .avatar {
   margin: auto;
-	
+  background-color: #f5b0af;
 }
 
 .logout {
   float: right;
   border: none;
+  background-color: #4D667E;
+  font-family: lato;
 }
 
-img.avatar {
+
+img .avatar {
   width: 40%;
   border-radius: 50%;
-	
+  
 }
 
+.button2 {
+  	float: right;
+  	color: white;
+  	border-radius: 5px;
+ 	border: none;
+  	cursor: pointer;
+  	background-color: #4D667E;
+  	padding: 7px 12px;
+	font-family: lato;
+}
+
+.button1 {
+  	float: right;
+  	color: white;
+  	border-radius: 5px;
+ 	border: none;
+  	cursor: pointer;
+  	background-color: #4D667E;
+  	padding: 7px 12px;
+	font-family: lato;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -78,30 +97,31 @@ input[type=text], input[type=password] {
   margin: 0px 0 10px 0;
   display: inline-block;
   border: none;
-  background:#7B94AD;
+  background: #ABC4DF;
+  font-family: lato;
 }
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #7B94AD;
   outline: none;
+  font-family: lato;
 }
-
-
-
 
 
 ::placeholder {
-  color: #CCCCCC;
+  color: #848484;
+  font-family: lato;
 }
 
 
-main{ 
+main { 
 	margin-top: 20px;
+	font-family: lato;
 }
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #7B94AD;
+  background-color: #f5b0af;
   color: #E2E2E2;
   padding: 10px;
   margin: 0px 0 10px 0;
@@ -111,10 +131,12 @@ main{
   width: 100%;
   opacity: 0.9;
   text-align: left;
+  font-family: lato;
+  border-radius: 10px;
 }
 
 .registerbtn:hover {
-  opacity:1;
+  opacity:0.6;
 }
 
 
@@ -126,7 +148,7 @@ main{
   border-radius: 50%;
   position: relative;
   transition: 200ms;
-  background-color: #e5ffff;
+  background-color: #f5b0af;
 	
 }
 .avatar:hover img {
@@ -137,9 +159,6 @@ main{
   opacity: 1;
 }
 
-footer {
-	margin-top: 90px;
-}
 
 img1 {
   width: 200px;
@@ -151,6 +170,7 @@ img1 {
 #to-hide {
   visibility: hidden;
 }
+
 .upload {
   width: 40px;
   height: 40px;
@@ -166,6 +186,7 @@ img1 {
   opacity: 0;
   transition: 200ms;
 }
+
 .upload:hover {
   background: #555;
   color: #fff;
@@ -173,7 +194,12 @@ img1 {
 
 footer {
 	margin-right: 15px;
-  border: none;
+    border: none;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
+.logout10 {
+	margin-bottom: 120px;
+	font-family: lato;
+}

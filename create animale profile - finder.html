@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	  <!-- CSS FILES -->
+    <link rel="stylesheet" href="Create animal profile - finder/CSS/bootstrap.min.css">
+	  <!-- Change this to your own CSS file, which you will work in -->
+	  <link rel="stylesheet" href="Create animal profile - finder/CSS/stylesheet10.css">
+
+	  <!-- Change title -->
+    <title>Create Animal Profile - finder</title>
+  </head>
+<body>
+  <header>
+		  <!-- Trigger/Open The Modal -->
+	<button class="button2" id="myBtn">SAVE</button>
+
+<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  		<div class="modal-content">
+    		<span class="close">&times;</span>
+				<div class="pop">
+					<p class="text"> Locate your pet  now!</p>
+  						<a class="link" href="Found A Pet - Map/www/map2.html">
+							<button class="button3">Go to the map</button>
+	  					</a>
+					<br>
+				  <p class="sharet text">Share this information </p>
+					<a class="link" href="a- share page.html"> <button class="button3">Share now</button>
+					</a>
+				</div>
+  		</div>
+
+	</div>
+</header>
+	 
+<main>
+	<div class="d-flex justify-content-center">
+	  	<div class="avatar">
+			<img class="img2" src="Create animal profile - finder/Images/thumbnail_907c75d8e81fa3db01996afe8381d81f.png" alt="" height="200">
+  				<input id="to-hide" type="file" onchange="previewFile()">
+  				<input type="button" class="upload" value="Edit" onClick="document.getElementById('to-hide').click()">
+		</div>
+	</div>
+</main>
+	  
+<div class="container">
+		<input type="text" placeholder="What is your pets name?" name="Name" required>
+		  
+	<div class="form-group GENDER">
+    	<label for="exampleFormControlSelect1">What type of pet is it?</label>
+    		<select class="form-control form-control-lg" id="exampleFormControlSelect1">
+     			 <option>Dog</option>
+      			  <option>Cat</option>
+					<option>Other</option>
+    		</select>
+  	</div>
+	    <div class="form-group GENDER">
+    		<label for="exampleFormControlSelect1">What is the gender of the pet?</label>
+    			<select class="form-control form-control-lg" id="FormControlSelect1">
+      				<option>Male</option>
+      				<option>Female</option>
+					<option>Prefer not to say</option>
+    			</select>
+  		</div>
+	<div class="btn-group">   
+        <a class="btn register dropdown-toggle" data-toggle="dropdown" href="#"  style="float:right"> 
+			What is the color of your pet?
+		</a>
+           <ul class="dropdown-menu">
+   <div class="row">
+        <div class="column">
+            <li><a href="javascript:void(0);">
+                	<img class="img1" src="Create animal profile - finder/Images/WhatsApp Image 2020-03-05 at 12.51.55 (1).jpeg" alt="" />Grey
+				</a>
+            </li>
+		</div>
+	<div class="column">
+       <li><a href="javascript:void(0);">
+               <img class="img1" src="Create animal profile - finder/Images/sandy-millar-ldhFlQYkXUU-unsplash.jpg" alt=""/> Brown
+		   </a>
+		</li>
+	</div>
+   </div>
+		<div class="row">
+        	<div class="column">
+               <li><a href="javascript:void(0);">
+                       <img class="img1" src="Create animal profile - finder/Images/alexi-ohre-L4vPfcfHSDo-unsplash.jpg" alt="" /> Gold
+				   </a>
+			  </li>
+			</div>
+		<div class="column">
+			<li><a href="javascript:void(0);">
+                   <img class="img1" src="Create animal profile - finder/Images/thumbnail_907c75d8e81fa3db01996afe8381d81f.png" alt="" /> Add
+				</a>
+            </li>
+		</div>
+	   </div>
+             </ul>
+            
+</div>
+		  
+	<div class="missing"> Is your pet castrated/sterilized?	
+		<br>
+	  <!-- Rounded switch -->	  
+			<div class="yes">NO &nbsp; YES
+	 		</div>
+		<br>
+	  <label class="switch">
+  		<input type="checkbox">
+  			<span class="slider round"></span>
+	  </label>
+	</div>
+	
+<input type="text" placeholder="What is your pets favourite food?" name="Breed">
+ <input type="text" placeholder="Extra information (Eg. patterns, size, recognisable features)" name="Breed">
+		  
+	<div class="missing"> Is your pet missing?
+	  <!-- Rounded switch -->	  
+		<div class="yes">NO &nbsp; YES
+		</div>
+			<br>
+		<label class="switch">
+ 			 <input type="checkbox">
+ 				 <span class="slider round"></span>
+		</label>
+	</div>
+	  <div class="button">
+	   	<a href="QR-CODE PAGE/QR-CODE PAGE.html">		<button type="button" class="registerbtn">
+			GENERATE QR-CODE NOW</button>
+		</a> 
+		 <a href="a- share page.html">
+	  		<button type="button" class="registerbtn">SHARE</button>
+		 </a>
+	 </div>
+</div>
+	
+
+	<script>
+// When the user clicks on <div>, open the popup
+		function myFunction() {
+  		var popup = document.getElementById("myPopup");
+  		popup.classList.toggle("show");
+}
+	  </script>
+	  
+
+    <!-- Do not change unless it does not work. In that case relink to your own downloaded files -->
+	<script src="Create animal profile - finder/JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="Create animal profile - finder/JS/bootstrap.bundle.min.js">
+	</script>
+  </body>
+	
+	
+<footer>
+	<nav class="navbar icon-bar fixed-bottom">
+ 		 <a href="Homescreen page-finder.html">
+			 <img src="Create animal profile - finder/Images/195-house.png" alt="home" width="35px">
+		 </a>
+  		 <a href="Missing2.0.html">
+			 <img src="Create animal profile - finder/Images/dog.png" alt="database" width="35px">
+		 </a>
+  		 <a href="create animale profile - finder.html">
+			 <img src="Create animal profile - finder/images/077-more.png" alt="add" width="35px">
+		 </a>
+  		 <a href="Found A Pet - Map/www/map2.html">
+			 <img src="Create animal profile - finder/images/138-maps-and-flags-1.png" alt="map" width="35px">
+		 </a>
+  		 <a href="Information.html">
+			 <img src="Create animal profile - finder/Images/112-information.png" alt="user" width="35px">
+		 </a>
+	</nav>
+	
+</footer>
+</html>

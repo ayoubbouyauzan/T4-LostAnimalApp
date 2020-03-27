@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Copy from here for navbar and background colour*/
+
+body {
+	background-color: #b2dfdb;
+	padding: 20px;
+	text-align: center;
+}
+
+.icon-bar {
+ 	width: 100%;
+  	background-color:#7B94AD;
+  	overflow: auto;
+}
+
+.icon-bar a {
+  	 float: left;
+ 	 text-align: center;
+ 	 width: 20%;
+ 	 padding: 12px 0;
+ 	 transition: all 0.3s ease;
+  	 color: black;
+ 	 font-size: 36px;
+}
+
+.icon-bar a:hover {
+ 	 background-color: #f5b0af;
+}
+
+.active {
+  	background-color: #888;
+}
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #82ada9;
+  color: #E2E2E2;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  text-align: center;
+  font-family: lato;
+  border-radius: 10px;
+}
+
+.registerbtn:hover {
+  opacity:0.6;
+}
+
+.log {
+	width: 40%;
+	background-color: #e28f7c;
+	font-family: lato;
+}
+
+.top {
+	margin-top: 20px;
+}
+
+.logout {
+	margin-top: 290px;
+}
