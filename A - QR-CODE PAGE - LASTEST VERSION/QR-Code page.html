@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS FILES -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+	<!-- Change this to your own CSS file, which you will work in -->
+	<link rel="stylesheet" href="CSS/stylesheet1.css">
+
+	  <!-- Change title -->
+	  
+  <title>QR code page</title>
+  </head>
+  <body>
+	  
+	<h2 class="text-center">HERE YOU CAN MAKE YOUR PET'S QR CODE</h2>
+	
+	<!-- QR Code-->
+	  
+  	<form name="QRform" id="QRform" class="text-center">
+    <input class="form-control" onkeyup="updateQRCode(this.value)" onclick="this.focus();this.select();" value="Type your contact details you want to be contact by" </form>
+
+    
+   	 <!-- This is where our QRCode will appear in. -->
+  	 <div class="text-center" id="qrcode"></div>
+    
+  	 <script type="text/javascript">
+     function updateQRCode(text) {
+
+        var element = document.getElementById("qrcode");
+        var bodyElement = document.body;
+        if(element.lastChild)
+        element.replaceChild(showQRCode(text), element.lastChild);
+        else
+        element.appendChild(showQRCode(text));}
+
+     updateQRCode('www.tutorialspoint.com');
+     </script>
+	  
+     <div class="text-center">
+       <a class="btn btn-primary" href="#">PRINT</a> 
+       <a class="btn btn-primary" href="#">SHARE</a> 
+     </div>
+	  
+    <div class="container" data-maxlength="250"> 
+       <p>With this QR-code people can get in direct contact with you if your pet is missing.</p>
+    </div>
+
+	  
+ <!-- navigation bar bottom -->
+		
+	<nav class="navbar icon-bar fixed-bottom">
+	  <a href="#"><img src="images/195-house.png" alt="home" width="35px"></a>
+	  <a href="#"><img src="images/060-tools-and-utensils-4.png" alt="database" width="35px"></a>
+	  <a href="#"><img src="images/077-more.png" alt="add" width="35px"></a>
+	  <a href="#"><img src="images/138-maps-and-flags-1.png" alt="map" width="35px"></a>
+	  <a href="#"><img src="images/148-user-2.png" alt="user" width="35px"></a>
+	</nav>
+
+    <!-- Do not change unless it does not work. In that case relink to your own downloaded files -->
+		
+
+	<script src="JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="JS/qrcode.js"></script>
+    <script type="text/javascript" src="JS/html5-qrcode.js"></script>
+		
+</body>
+</html>
