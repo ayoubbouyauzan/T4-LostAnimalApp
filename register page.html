@@ -15,14 +15,14 @@
   </head>
 	
   <body>
-	<form action="action_page.php">
+	<form name="myForm" action="action_page.php" onsubmit="return validateForm()">
  	 <div class="container">
 		<div class="picture">
 		  <a href="index.html">
     		<img src="Register/Images/logo_pawtracker_nobackground.png" height="150" alt=""></a>
 		</div>
 	  		<input type="text" placeholder="First Name" name="f-name">
-	  		<input type="text" placeholder="Last name" name="f-name">
+	  		<input type="text" placeholder="Last name" name="l-name">
     		<input type="text" placeholder="Enter Email" name="email" required>
     		<input type="password" placeholder="Password" name="psw" required>
  
