@@ -29,6 +29,11 @@ body {
   font-family: lato;
 }
 
+.img2 {
+	width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
 img .avatar {
   width: 40%;
@@ -155,7 +160,7 @@ img1 {
 .upload {
   width: 40px;
   height: 40px;
-  background: #e2e2e2;
+  background: #4D667E;
   border: none;
   box-shadow: 0 0 0 6px #fff;
   border-radius: 50%;

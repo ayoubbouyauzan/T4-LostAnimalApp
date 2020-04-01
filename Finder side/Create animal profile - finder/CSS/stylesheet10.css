@@ -22,6 +22,13 @@ header{
   	justify-content: center;
 }
 
+.img2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #e28f7c;
+}
+
 .text {
 	font-size: 13pt;
 	font-family: lato;
@@ -105,7 +112,6 @@ main {
 
 .avatar {
   margin: 24px 0 12px 0;
-  background-color: #e28f7c;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -125,6 +131,7 @@ main {
 img.avatar {
   width: 40%;
   border-radius: 50%;
+  opacity: 1.0;
 }
 
 /* Add padding to containers */
@@ -305,17 +312,15 @@ input:checked + .slider:before {
   opacity: 1;
 }
 
-
-
-
 #to-hide {
   display: none;
+  opacity: 1.0;
 }
 
 .upload {
   width: 40px;
   height: 40px;
-  background: #e2e2e2;
+  background-color: #82ada9;
   border: none;
   box-shadow: 0 0 0 6px #fff;
   border-radius: 50%;
