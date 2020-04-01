@@ -125,7 +125,7 @@ img.avatar {
 
 /* Add padding to containers */
 .container {
-	max-height: 300px;
+	max-height: 350px;
   	padding: 36px;
 	font-family: lato;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -322,7 +322,7 @@ input:checked + .slider:before {
 }
 
 #to-hide {
-  visibility: hidden;
+display: none;
 }
 
 .upload {

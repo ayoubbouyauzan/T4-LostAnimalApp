@@ -130,7 +130,7 @@ img.avatar {
 /* Add padding to containers */
 .container {
 	margin-top: 5px;
-	max-height: 250px;
+	max-height: 350px;
   	padding: 36px;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
   	overflow-y: scroll; /* Add vertical scrollbar */
@@ -309,7 +309,7 @@ input:checked + .slider:before {
 
 
 #to-hide {
-  visibility: hidden;
+  display: none;
 }
 
 .upload {
