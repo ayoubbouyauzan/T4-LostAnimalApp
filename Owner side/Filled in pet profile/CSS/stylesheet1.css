@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#7B94AD;
+}
+
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+
+.box {
+	align-content: center;
+	text-align: left;
+	border: 3px;
+	border-color: black;
+	width: 300;
+	height: 50;
+	margin: 20;
+	padding: 20;
+	background-color:#ABC4DF;
+ 	overflow: auto;
+	cursor: pointer;
+	padding-top: 5px;
+}
+.box3{
+	align-content:left;
+	text-align: left;
+	border: 3px;
+	border-color: black;
+	width: 300;
+	height: 50;
+	margin: 20;
+	padding: 20;
+	background-color:#ABC4DF;
+ 	overflow: auto;
+	cursor: pointer;
+}
+
+.d {
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.logout {
+	text-align: center;
+	margin-top: 75px;
+	background-color:#82ADA9;
+	cursor: pointer;
+
+	
+}
+
+/* Add padding to containers */
+.container {
+	margin-top: 5px;
+	max-height: 270px;
+  	padding: 36px;
+	font-family: lato;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+  	overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.boxes ul a:hover {
+	background-color: #ABC4DF;
+}
+.boxes{
+	align-content: center;
+	text-align: center;
+	border: 3px;
+	border-color: black;
+	width: 300;
+	height: 50;
+	margin: 20;
+	padding: 20;
+ 	overflow: auto;
+	cursor: pointer;
+}
+
+.logo {
+	align-content: center;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+}
+
+
+
+.box2 {
+	position: absolute;
+	bottom: 309px;
+	right: 0px;
+	padding: 5px;
+	background-color:#82ADA9;
+ 	overflow: auto;
+	cursor: pointer;
+	text-align: left;
+	width: 125px;
+	padding-left: 10px;
+	border: double;
+}
+
+
+
+/* Avatar image */ 
+#Profile_image{
+ vertical-align: middle;
+  height: 200px; 
+  width: 200px;
+  border-radius: 50%;
+  boarder: 1px solid white;
+}
+/* for call owner button */
+.button {
+  float: left;
+  border: 1px solid #4D667E ;
+  background-color: #4D667E;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #f5b0af;
+  color: aliceblue;
+  text-decoration: none;
+  border: none;
+}
+
+a{
+ text-decoration: none;
+ color: aliceblue;
+}
+
+a:hover{
+ text-decoration: none;
+ color: aliceblue;	
+}
+
+.button1 {
+  float: left;
+  background-color: #4D667E;
+  color: white;
+  padding: 4px 10px ;
+  text-align: center;
+  text-decoration: none;
+  font-size: 7px;
+  border-radius: 4px;  
+}
+.button1:hover {
+  background-color: #f5b0af;
+  color: aliceblue;
+  text-decoration: none;
+}
+/* For avatar image upload */
+
+
+#to-hide {
+  visibility: hidden;
+}
+
+
+/* row*/
+.row {
+	align-content: center;
+	text-align: center;
+ 	overflow: auto;
+	cursor: pointer;
+	max-width: 300;
+}
+.col-6{
+	align-content: center;
+	text-align: center;
+	border: 3px;
+}
+/*fonts*/
+h6{
+ font-family: lato;
+  
+}
+
+h5{
+	font-family: lato;
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+p{
+font-family: 'Lato', sans-serif;	
+}
+
+a{
+	font-family: "Roboto Medium";
+}
+/*center elements */
+.center{
+	justify-content: center;
+	vertical-align: center;
+}
+
+/*header padding */ 
+header {
+	Padding: 10px;
+}
+
+
+
+/*Switch placement */
+.placement_sw{
+	width: 100%;
+  	padding: 10px;
+  	margin: 0px 0 10px 0;
+ 	 display: inline-block;
+  	border: none;
+ 	 background: #ABC4DF;
+  	font-family: lato;
+}
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #f5b0af;
+  color: white;
+  padding: 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Roboto Medium";
+}
+
+.register {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #ABC4DF;
+  text-align: left;
+  font-family: "Roboto Medium";
+}
+
+.registerbtn:hover {
+  background-color: #4D667E;
+}
+
+.miss {
+	background-color: #f5b0af;
+}

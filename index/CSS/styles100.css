@@ -23,13 +23,13 @@ body {
 .bt1 {
 	background-color: #ABC4DF;
 	border-color: #728D9E;
-	font-family: lato;
+	font-family: "Roboto Medium";
 }
 
 .bt2 {
 	background-color: #e28f7c;
 	border-color: #6D5A55;
-	font-family: lato;
+	font-family: "Roboto Medium";
 }
 
 a {
@@ -41,6 +41,7 @@ button {
 	color: white;
 	cursor: pointer;
 	border: solid;
+	font-family: "Roboto Medium";
 }
 
 

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#B2DFDB;
+	padding: 20px;	
+}
+
+h3 {
+    font-family: Roboto, Medium;
+    margin-left: 10px;	
+	color: white;
+}
+
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+	color:#e28f7c;
+	text-decoration: none;
+}
+
+p li{
+    font-family: lato;
+    margin-left: 10px;	
+}

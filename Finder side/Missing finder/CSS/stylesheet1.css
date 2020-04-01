@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background-color:#b2dfdb;
+	font-family: lato;
+}
+
+.foto2 {
+	width: 30%;
+	margin-right: 5px;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color:#8d8d8d;
+  overflow: auto;
+
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+
+
+.icon-bar a:hover {
+  background-color:#AB5C59;
+}
+
+.active {
+  background-color: #888;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+.box {
+	align-content: center;
+	text-align: center;
+	border: 3px;
+	width: 300;
+	height: 50;
+	margin: 20;
+	padding: 20;
+	background-color:#82ADA9;
+ 	overflow: auto;
+	cursor: pointer;
+}
+
+
+
+.logout {
+	text-align: center;
+	margin-top: 75px;
+	background-color:#82ADA9;
+	cursor: pointer;
+
+	
+}
+
+.container {
+	align-content: center;
+	margin-top: 40px;
+	height: 320px;
+}
+
+
+.boxes ul a:hover {
+	background-color: #AB5C59;
+}
+
+.logo {
+	align-content: center;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.qr {
+	float: left;
+}
+
+.row {
+	background-color:#82ADA9;
+	padding: 20px;
+   margin-top: 10px;
+	
+}
+
+.filter{
+	text-align: right;
+	padding: 20px;
+	padding-right: 20px;
+}
+
+.foto {
+	border-radius: 40%;
+}
+
+
+p {
+	clear: right;
+	float: right;
+
+}
+
+.btn {
+	background-color:#82ADA9;
+	font-family: "Roboto Medium";
+}
+
+.btn:hover {
+	
+
+	background-color: #e28f7c;
+}
+
+.dropdown-menu {
+	background-color: #82ada9;
+	padding: 20px;
+	border: solid 2px;
+	border-color: #B2DFDB;
+	color: white;
+	font-family: "Roboto Medium";
+}
+
+footer {
+	padding-top: 550px;
+}
+
+.list {
+	position: absolute;
+	left: 0px;
+	width: auto;
+	color: white;
+	background-color: #e28f7c;
+}
+
+.create {
+	position: absolute;
+	right: 0px;
+	width: auto;
+	color: white;
+	background-color: #e28f7c;
+	
+}
+
+.button {
+	position: absolute;
+	left: 50px;
+	width: 200px;
+	height: 50px;
+	background-color: #e28f7c;
+	color: white;	
+	font-family: "Roboto Medium";
+}
+
+.qr {
+	text-align: center;
+}
+
+.btn1 {
+	border: none;
+  	color: white;
+ 	cursor: pointer;
+	width: 100px;
+	height: 60px;
+	background-color: #e28f7c;
+  	border-radius: 10px;
+	font-family: "Roboto Medium";
+  
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color:  #e28f7c;
+  color: white;
+  padding: 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Roboto Medium";
+}
+
+.button3 {
+	margin-top: 10px;
+}
+
+.registerbtn:hover {
+  background-color: #82ada9;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-family: "Roboto Medium";
+}
+
+a:hover {
+	text-decoration: none;
+	color: #82ada9;
+}
+
+
+.dropdown-menu {
+	background-color: #c8c8c8;
+}

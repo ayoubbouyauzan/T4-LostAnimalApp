@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#7B94AD
+}
+
+h2 {
+	color: white;
+	font-family: "Roboto Medium";
+}
+
+.form-control {
+ margin-bottom: 2%;
+}
+
+a {
+	font-family: "Roboto Medium";
+}
+
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  background: #f5b0af;
+  font-family: "Roboto Medium";
+}
+
+.box {
+	align-content: center;
+	text-align: center;
+	border: 3px;
+	border-color: black;
+	width: 300;
+	height: 50;
+	margin: 20;
+	padding: 20;
+	background-color:#82ADA9;
+ 	overflow: auto;
+	cursor: pointer;
+}
+
+
+
+.logout {
+	text-align: center;
+	margin-top: 75px;
+	background-color:#82ADA9;
+	cursor: pointer;
+}
+
+
+.boxes ul a:hover {
+	background-color: #AB5C59;
+}
+
+.logo {
+	align-content: center;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.pet {
+	background-color:#82ADA9;
+	padding: 20px;
+	border: solid 1px;
+	border-color: #ab5c59;
+
+	
+}
+
+.filter{
+	text-align: right;
+	background-color: #82ADA9;
+	padding: 20px;
+	padding-right: 40px;
+}
+
+.foto {
+	border-radius: 35%;
+	width: 20%;
+}
+
+
+span {
+	float: right;
+	clear: right;
+
+}
+
+.btn {
+	font-family: "Lato Regular";
+	margin: 10px;
+    text-decoration: none;
+  	padding: 12px 30px;
+}
+
+.dropdown-menu {
+	background-color: #B2DFDB;
+	padding: 15px;
+	border: solid 2px;
+	border-color: #B2DFDB;
+}
+
+script {
+	text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-family: "Lato Regular";
+}
+
+
+
+/* ------Botton ------ */
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #4D667E;
+}
+
+.btn-primary:active {
+  background: #4D667E;
+ 
+}
+
+.btn-primary:hover{
+	background: #f5b0af;
+}
+
+p {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px dashed white;
+  box-sizing: border-box;
+}
+
+.text-box p {
+  margin: 0;
+}
+
+.text-center {
+	font-family: "Lato Regular";
+}

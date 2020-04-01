@@ -109,9 +109,10 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
+
 .icon-bar {
   width: 100%;
-  background-color: #B2DFDB;
+  background-color:#8d8d8d;
   overflow: auto;
 }
 
@@ -125,8 +126,9 @@ h1 {
   font-size: 36px;
 }
 
+
 .icon-bar a:hover {
-  background-color: #AB5C59;
+  background-color:#AB5C59;
 }
 
 .active {

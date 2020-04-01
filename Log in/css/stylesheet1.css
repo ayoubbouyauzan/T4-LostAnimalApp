@@ -4,7 +4,7 @@
 * {box-sizing: border-box}
 
 body {
-	background-color:#7B94AD;
+	background-color:#b2dfdb;
 	margin-top: 55px;
 	padding: 10px;
 }
@@ -26,12 +26,12 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-  font-family: lato;
+  font-family: Roboto Medium;
 }
 
 /* Add a hover effect for buttons */
 button:hover {
-  opacity: 0.8;
+background-color: #e28f7c;
 }
 
 
@@ -39,7 +39,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #4D667E;
+  background-color: #82ada9;
   border-radius: 10px;
 }
 
@@ -62,11 +62,11 @@ input[type=text], input[type=password] {
   margin: 0px 0 25px 0;
   display: inline-block;
   border: none;
-  background: #ABC4DF;
+  background: #DDE7F1;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #DDE7F1;
+  background-color: white;
   outline: none;
 }
 

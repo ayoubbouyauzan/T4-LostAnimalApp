@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#7B94AD;
+}
+
+
+
+.icon-bar {
+  width: 100%;
+  background-color:#8d8d8d;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.btn:hover {
+	background-color: #f5b0af;
+}
+.foto {
+	margin-top: 10px;
+}
+
+.icon-bar a:hover {
+ background-color: #e28f7c;
+}
+
+.active {
+  background-color: #e28f7c;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-family: "Roboto Medium";
+}
+
+.box {
+	align-content: center;
+	text-align: center;
+	border: 3px;
+	border-color: black;
+	width: 300;
+	height: 50;
+	margin: 20;
+	padding: 20;
+	background-color:#82ADA9;
+ 	overflow: auto;
+	cursor: pointer;
+}
+
+
+.container {
+	align-content: center;
+	margin-top: 40px;
+	height: 320px;
+}
+
+.boxes ul a:hover {
+	background-color: #AB5C59;
+}
+
+.logo {
+	align-content: center;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.row {
+	background-color:#ABC4DF;
+	padding: 20px;	
+	margin-top: 10px;
+}
+
+.filter{
+	text-align: right;
+	padding: 20px;
+	padding-right: 40px;
+}
+
+.foto {
+	border-radius: 40%;
+}
+
+
+
+p {
+	float: right;
+	clear: right;
+}
+
+.btn {
+	background-color: #4D667E;
+}
+
+.dropdown-menu {
+	background-color: #82ada9;
+	padding: 20px;
+	border: solid 2px;
+	border-color: #B2DFDB;
+}
+
+footer {
+	padding-top: 550px;
+}
+
+.scan {
+	position: absolute;
+	left: 50px;
+	width: 175px;
+	height: 50px;
+	background-color: #e28f7c;
+	color: white;
+}
+
+.create {
+	position: fixed;
+	bottom: 80px;
+	right: 0px;
+	width: 300px;
+	height: 50px;
+	background-color: #e28f7c;
+	color: white;
+}
+
+.list {
+	position: fixed;
+	width: 390px;
+	left: 0px;
+	height: 50px;
+	bottom: 80px;
+	background-color: #e28f7c;
+	color: white;
+}
+
+a {
+	color: #4D667E;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #f5b0af;
+	
+}
+
+.dropdown-menu {
+	background-color: #EFEFEF;      
+}
