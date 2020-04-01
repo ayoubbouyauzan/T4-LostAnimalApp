@@ -24,9 +24,9 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-color: #b2dfdb;
+    background-image:linear-gradient(top, #A7A7A7 0%, ##b2dfdb 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #b2dfdb 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-gradient(
         linear,
@@ -51,7 +51,7 @@ body {
 }
 
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px){
     .app {
         background-position:left center;
         padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
@@ -70,7 +70,7 @@ h1 {
 }
 
 
-#map { height: 580px; }
+#map { height: 800px; }
 
 
 .event {
@@ -109,34 +109,3 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-.icon-bar {
-  width: 100%;
-  background-color:#8d8d8d;
-  overflow: auto;
-}
-
-.icon-bar a {
-  float: left;
-  text-align: center;
-  width: 20%;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-
-.icon-bar a:hover {
-  background-color:#AB5C59;
-}
-
-.active {
-  background-color: #888;
-}
-
-.btn {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  cursor: pointer;
-}

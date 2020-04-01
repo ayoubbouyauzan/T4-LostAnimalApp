@@ -33,19 +33,19 @@ var app = {
 		*/
 		
 		//TODO build something to fall back to web if not found.
-		L.tileLayer('img/mapTiles/{z}/{x}/{y}.png', {
+		L.tileLayer('Found A Pet - Map/www/img/mapTiles/{z}/{x}/{y}.png', {
 			maxZoom: 17
 		}).addTo(map);
 
-		var imageUrl = 'img/pet/dog1.png',
+		var imageUrl = 'Found A Pet - Map/www/img/pet/dog1.png',
        imageBounds = [[51.58650, 4.77600], [51.58250, 4.77000]];
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
 		
-		var imageUrl = 'img/pet/cat1.png',
+		var imageUrl = 'Found A Pet - Map/www/img/pet/cat1.png',
        imageBounds = [[51.59650, 4.78600], [51.59250, 4.78000]];
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
 		
-		var imageUrl = 'img/pet/horse1.png',
+		var imageUrl = 'Found A Pet - Map/www/img/pet/horse1.png',
        imageBounds = [[51.57650, 4.79600], [51.57250, 4.79000]];
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
 		
