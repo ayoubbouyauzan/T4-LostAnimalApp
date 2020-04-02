@@ -95,25 +95,6 @@ input:checked + .slider:before {
   font-family: "Roboto Medium";
 }
 
-.forgot {
-	margin-top: 10px;
-	font-family: lato; 
-}
-
-.forgot2 {
-	font-size: 11pt;
-	font-family: lato; 
-}
-
-a {
-	color: white;
-	font-family: lato;
-}
-
-a:hover {
-	color: #4D667E;
-}
-
 p {
 	color: white;
 	font-family: lato; 

@@ -34,7 +34,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Overwrite default styles of hr */
 hr {
-  border: 1px solid #f5b0af;
+  border: 1px solid #e28f7c;
 }
 
 .registerbtn:hover {
@@ -69,11 +69,6 @@ p {
   font-family: lato;
 }
 
-.btn-secondary {
-	margin-bottom: 5px;
-	background-color: #82ada9;
-	font-family: lato;
-}
 
 /* Set a style for all buttons */
 button {

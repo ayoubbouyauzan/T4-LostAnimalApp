@@ -7,37 +7,9 @@ body {
 
 .foto {
 	margin-top: 15px;
+	border-radius: 40%;
 }
 
-
-.btn {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  cursor: pointer;
-}
-
-.box {
-	align-content: center;
-	text-align: center;
-	border: 3px;
-	width: 300;
-	height: 50;
-	margin: 20;
-	padding: 20;
-	background-color:#7B94AD;
- 	overflow: auto;
-	cursor: pointer;
-}
-
-
-
-.logout {
-	text-align: center;
-	margin-top: 75px;
-	background-color:#82ADA9;
-	cursor: pointer;
-}
 
 .container {
 	align-content: center;
@@ -45,16 +17,6 @@ body {
 	height: 380px;
 }
 
-.boxes ul a:hover {
-	background-color: #AB5C59;
-}
-
-.logo {
-	align-content: center;
-	display: block;
-	margin: auto;
-	margin-top: 25px;
-}
 
 .row {
 	background-color:#82ada9;
@@ -63,29 +25,13 @@ body {
 }
 
 
-.filter{
-	text-align: right;
-	background-color: #82ADA9;
-	padding: 20px;
-	padding-right: 40px;
-}
-
-.foto {
-	border-radius: 40%;
-}
-
-
 p {
 	clear: right;
 	margin-left: 5px;
 	float: right;
-
+	font-family: lato;
 }
 
-
-.btn {
-	background-color: #ab5c59;
-}
 
 /* text */
 
@@ -94,9 +40,6 @@ h2 {
 	 font-family: "Roboto Medium";
 }
 
-p {
-	 font-family:"Lato Regular";
-}
 
 /* social media */
 

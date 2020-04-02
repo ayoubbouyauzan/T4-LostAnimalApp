@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- CSS FILES -->
-    <link rel="stylesheet" href="Owner side/A - QR-CODE PAGE - LASTEST VERSION/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
 	<!-- Change this to your own CSS file, which you will work in -->
 	<link rel="stylesheet" href="Owner side/A - QR-CODE PAGE - LASTEST VERSION/CSS/stylesheet1.css">
 	  <link rel="stylesheet" href="Navbar/navbar.css">
@@ -21,14 +21,13 @@
 	<!-- QR Code-->
 	  
   	<form name="QRform" id="QRform" class="text-center">
-    <input class="form-control" onkeyup="updateQRCode(this.value)" onclick="this.focus();this.select();" value="Type your contact details you want to be contact by" ></form>
-
-    
+    	<input class="form-control" onkeyup="updateQRCode(this.value)" onclick="this.focus();this.select();" value="Type your contact details you want to be contact by" >
+	 </form>
    	 <!-- This is where our QRCode will appear in. -->
   	 <div class="text-center" id="qrcode"></div>
     
-  	 <script type="text/javascript">
-     function updateQRCode(text) {
+  	 	<script type="text/javascript">
+		function updateQRCode(text) {
 
         var element = document.getElementById("qrcode");
         var bodyElement = document.body;
@@ -72,8 +71,8 @@
     <!-- Do not change unless it does not work. In that case relink to your own downloaded files -->
 		
 
-	<script src="Owner side/A - QR-CODE PAGE - LASTEST VERSION/JS/jquery-3.4.1.slim.min.js"></script>
-    <script src="Owner side/A - QR-CODE PAGE - LASTEST VERSION/JS/bootstrap.bundle.min.js"></script>
+	<script src="JS/jquery-3.4.1.slim.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
 	<script type="text/javascript" src="Owner side/A - QR-CODE PAGE - LASTEST VERSION/JS/qrcode.js"></script>
     <script type="text/javascript" src="Owner side/A - QR-CODE PAGE - LASTEST VERSION/JS/html5-qrcode.js"></script>
 		

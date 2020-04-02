@@ -66,28 +66,6 @@ body {
   	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
-.boxes ul a:hover {
-	background-color: #ABC4DF;
-}
-.boxes{
-	align-content: center;
-	text-align: center;
-	border: 3px;
-	border-color: black;
-	width: 300;
-	height: 50;
-	margin: 20;
-	padding: 20;
- 	overflow: auto;
-	cursor: pointer;
-}
-
-.logo {
-	align-content: center;
-	display: block;
-	margin: auto;
-	margin-top: 25px;
-}
 
 
 

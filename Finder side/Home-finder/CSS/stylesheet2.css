@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #b2dfdb;
+}
+
+
+.container {
+	margin-top: 5px;
+	max-height: 500px;
+  	padding: 36px;
+	font-family: lato;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+  	overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+header{
+	padding-top:  30px;
+	font-family: 'Roboto', sans-serif;	
+}
+
+
+/* pet image size restrictions */
+#Pet_img {
+	width:100%; 
+} 
+
+#Pet_img2 {
+	width:100%; 
+}
+/*settings for the sliders*/
+.yes {
+	float: right;
+	font-family: lato;
+	margin-left: 20px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float: right;
+}
+
+/* Hide default HTML checkbox */
+
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  text-align: right;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e28f7c ;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #8D8D8D;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #8D8D8D;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* row background settings */
+.row {
+	background-color: #82ada9;
+}
+/*fonts*/
+
+h1{
+ font-family: "Roboto Medium";
+ margin-right: 8px;
+ color: white;
+}
+
+h{
+	font-family: lato;		
+}
+
+p{
+font-family: 'Lato';	
+}
+
+a{
+	font-family: 'Lato',;
+}
+
+.pluto {
+	padding: 10px;
+}
+
+
+h5 {
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+.pet {  
+margin-top: 5px;
+}

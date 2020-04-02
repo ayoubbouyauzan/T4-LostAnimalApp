@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 body {
 	background-color:#b2dfdb;
 	font-family: lato;
@@ -29,7 +27,6 @@ body {
   color: white;
   font-size: 36px;
 }
-
 
 
 .icon-bar a:hover {
